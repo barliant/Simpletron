@@ -49,7 +49,7 @@ public class Simpletron {
 		System.out.println("Simpletron Machine Language © 2016");
 	}
 	
-	public void start (InputStream in, OutputStream out) {
+	public void start (InputStream in) {
 		System.out.println("Simpletron Machine is executed");
 		inputSource = in;
 		reader = new Scanner (inputSource);
